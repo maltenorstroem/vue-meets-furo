@@ -15,7 +15,7 @@
       </ul>
     </div>
 
-    <furo-ui5-card heading="Integrated Furo Services" subheading="API Services">
+    <furo-ui5-card heading="Registered Furo Services" subheading="API Services from Furo environment" icon="connected">
       <furo-ui5-button slot="action">Start</furo-ui5-button>
       <div slot="content">
         <ul>
@@ -51,8 +51,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 furo-split-view {
-  padding: 0.25rem 1rem;
+  padding: 1rem 1rem;
 }
 h3 {
   margin: 40px 0 0;

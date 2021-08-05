@@ -7,16 +7,17 @@ import { Init, Env } from '@furo/framework/src/furo.js';
 import { Services, Types } from '@adcubum/adcubum-library-example-bff-spec/dist/env.js';
 
 /**
+ * Import custom icon set
+ */
+import './iconset.js';
+
+/**
  * Register the available types (only needed if you work with @furo/data... components  )
  */
 Init.registerApiServices(Services);
 Init.registerApiTypes(Types);
 
-// this language config will overwrite the language config in index.html
-
-// Env.locale = 'de-CH';
-
-Env.api.prefix = `${window.APPROOT}/api`;
+Env.api.prefix = `/api`;
 
 /**
  * Apply the prefix to all service deeplinks and to all furo.Reference types with defaults
