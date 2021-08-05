@@ -1,6 +1,6 @@
 # Vue meets Eclipse Furo
 
-##Eclipse Furo
+## Eclipse Furo
 Furo provides simply enterprise-flavoured, language-agnostic API development. It comes with multiple sources of truth and generates border-crossing type and service definitions.
 https://github.com/eclipse/eclipsefuro
 
