@@ -71,8 +71,8 @@ ul {
 }
 
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 a {
