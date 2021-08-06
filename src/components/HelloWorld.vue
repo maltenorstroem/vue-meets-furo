@@ -16,7 +16,7 @@
     </div>
 
     <furo-ui5-card heading="Registered Furo Services" subheading="API Services from Furo environment" icon="connected">
-      <furo-ui5-button slot="action">Start</furo-ui5-button>
+      <furo-ui5-button slot="action" v-on:click="doSomething">Start</furo-ui5-button>
       <div slot="content">
         <ul>
           <li v-for="(value, name) in services" v-bind:key="name">
@@ -45,7 +45,16 @@ export default {
     return {
       services: Env.api.services
     }
+  },
+  // define methods under the `methods` object
+  methods: {
+    doSomething: function (event) {
+      if (event) {
+        alert(event.target.tagName)
+      }
+    }
   }
+
 }
 </script>
 

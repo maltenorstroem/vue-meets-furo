@@ -6,11 +6,9 @@
     >
     </ui5-shellbar>
     <ui5-tabcontainer
-        class="full-width"
         collapsed
         fixed
         show-overflow
-        @-tab-select="--subTabSelected"
     >
       <!-- The ui5-tab represents a selectable item inside a ui5-tabcontainer.
            For the interaction with furo-pages to work, the attribute data-tab must be set. -->
